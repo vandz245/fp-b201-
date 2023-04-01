@@ -1,0 +1,341 @@
+[{
+  "_id": {
+    "$oid": "641569100a90f06b2a58689c"
+  },
+  "user": {
+    "$oid": "64153b21db6aa4d1824ed185"
+  },
+  "title": "Nice vintage story",
+  "description": "I enjoy vintage books and movies so I enjoyed reading this book.  The plot was unusual.  Don't think killing someone in self-defense but leaving the scene and the body without notifying the police or hitting someone in the jaw to knock them out would wash today.Still it was a good read for me.",
+  "productId": "product_wsus5x2613",
+  "createdAt": {
+    "$date": "2023-03-18T07:32:32.364Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T07:32:32.364Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64156a2e0a90f06b2a5868a4"
+  },
+  "user": {
+    "$oid": "6415697c0a90f06b2a58689f"
+  },
+  "title": "Different...",
+  "description": "This book is a reissue of an old one; the author was born in 1910. It's of the era of, say, Nero Wolfe. The introduction was quite interesting, explaining who the author was and why he's been forgotten; I'd never heard of him.The language is a little dated at times, like calling a gun a &#34;heater.&#34;  I also made good use of my Fire's dictionary to look up words like &#34;deshabille&#34; and &#34;Canarsie.&#34; Still, it was well worth a look-see.",
+  "productId": "product_o4yep5l16e",
+  "createdAt": {
+    "$date": "2023-03-18T07:37:18.425Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T07:37:18.425Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64156b6a0a90f06b2a5868ac"
+  },
+  "user": {
+    "$oid": "64156b190a90f06b2a5868a7"
+  },
+  "title": "Oldie",
+  "description": "This was a fairly interesting read.  It had old- style terminology.I was glad to get  to read a story that doesn't have coarse, crasslanguage.  I read for fun and relaxation......I like the free ebooksbecause I can check out a writer and decide if they are intriguing,innovative, and have enough of the command of Englishthat they can convey the story without crude language.",
+  "productId": "product_11fugvolmd",
+  "createdAt": {
+    "$date": "2023-03-18T07:42:34.326Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T07:42:34.326Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64156d150a90f06b2a5868b4"
+  },
+  "user": {
+    "$oid": "64156be10a90f06b2a5868af"
+  },
+  "title": "Great read.hands down #5star hit",
+  "description": "This book was everything. I just hope Alexus wise up and move on. And lawd I thought Cherika worked my nerves but damn Keanna was doing to much. I uunderstand she was hurting but TJ was never her's sooo she should had walked away from that situation. And that damn Dre well let's just say he knows 1st hand that Chick name KARMA is no joke. I truly enjoyed this. Now patiently waiting for part 2.",
+  "productId": "product_d7bmpb4pyp",
+  "createdAt": {
+    "$date": "2023-03-18T07:49:41.856Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T07:49:41.856Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64156e160a90f06b2a5868bc"
+  },
+  "user": {
+    "$oid": "64156d840a90f06b2a5868b7"
+  },
+  "title": "Wow!!",
+  "description": "When I say this was an excellent book please believe it was definitely a page turner, I got so caught in these characters that it was unbelievable the things these women went through and what they would do for love but can't wait for part 2!!!",
+  "productId": "product_l82uq82ooh",
+  "createdAt": {
+    "$date": "2023-03-18T07:53:58.495Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T07:53:58.495Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641571630a90f06b2a5868c4"
+  },
+  "user": {
+    "$oid": "641571100a90f06b2a5868bf"
+  },
+  "title": "Review!!!",
+  "description": "A beautiful in-depth character description makes it like a fast pacing movie. It is a pity Mr Merwin did not write 30 instead only 3 of the Amy Brewster mysteries.",
+  "productId": "product_tqfukjsit4",
+  "createdAt": {
+    "$date": "2023-03-18T08:08:03.603Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T08:08:03.603Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641572350a90f06b2a5868cc"
+  },
+  "user": {
+    "$oid": "641571c20a90f06b2a5868c7"
+  },
+  "title": "Nice old fashioned story",
+  "description": "I enjoyed this one tho I'm not sure why it's called An Amy Brewster Mystery as she's not in it very much. It was clean, well written and the characters well drawn.",
+  "productId": "product_vk1hwell1q",
+  "createdAt": {
+    "$date": "2023-03-18T08:11:33.323Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T08:11:33.323Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641572fc0a90f06b2a5868d4"
+  },
+  "user": {
+    "$oid": "6415729f0a90f06b2a5868cf"
+  },
+  "title": "Enjoyable reading and reminding the old times",
+  "description": "Never heard of Amy Brewster. But I don't need to like Amy Brewster to like this book. Actually, Amy Brewster is a side kick in this story, who added mystery to the story not the one resolved it. The story brings back the old times, simple life, simple people and straight relationships.",
+  "productId": "product_6z5ew3ymhb",
+  "createdAt": {
+    "$date": "2023-03-18T08:14:52.150Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T08:14:52.150Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64157e140a90f06b2a5868dc"
+  },
+  "user": {
+    "$oid": "64157d320a90f06b2a5868d7"
+  },
+  "title": "Not bad, not exceptional",
+  "description": "This is a short story focused on Darth Maul's role in helping the Trade Federation gain a mining colony. It's not bad, but it's also nothing exceptional. It's fairly short so we don't really get to see any characters develop. The few events that do happen seem to go by quickly, including what should have been major battles. The story is included in the novelShadow Hunter (Star Wars: Darth Maul), which is worth reading, so don't bother to buy this one separately.",
+  "productId": "product_nwpi0wusao",
+  "createdAt": {
+    "$date": "2023-03-18T09:02:12.669Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T09:02:12.669Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641580650a90f06b2a5868e4"
+  },
+  "user": {
+    "$oid": "64157f530a90f06b2a5868df"
+  },
+  "title": "Not bad; it is well written",
+  "description": "Well written. Interesting to see Sideous (through Maul) maneuvering events to fit his plan. We see human nature at work. But no good guys to root for. Even Rurit is a helpless pawn.",
+  "productId": "product_zqr9odbeua",
+  "createdAt": {
+    "$date": "2023-03-18T09:12:05.086Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T09:12:05.086Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641581270a90f06b2a5868ec"
+  },
+  "user": {
+    "$oid": "641580d20a90f06b2a5868e7"
+  },
+  "title": "Han and Leia reunited and Barabel Jedi introduced",
+  "description": "Troy Denning's novella Recovery was originally published in e-book form and is a short tale set after the events of Kathy Tyers' Balance Point. Han and Leia Solo's relationship was fractured early in the Yuuzhan Vong invasion by the death of someone in the family, and the books prior to Recovery, notably the Agents of Chaos duology, spent time exploring Han's journey to reclaim himself from his demons and Leia's efforts to be patient with the process.  Ms. Tyers reunited the couple in Balance Point as the battle for Duros commenced, but it is in this short story that they truly begin the emotional healing process.We start on Corellia with a battle in a hospital and an appearance from Han's rogue cousin Thracken Sal-Solo. It's good to touch base on what Sal-Solo has been up to since he fired the Centerpoint weapon earlier in the New Jedi Order. Mr. Denning uses this story to introduce a group of his preferred characters, a tight-knit group of saurian Barabel Jedi. Here they are accompanied by an entertainingly non-conventional, salt-addicted Arcona Jedi as well as a human Jedi, Master Eelysa, known for her lengthy and complicated solo missions. The Barabel come into full play in Mr. Denning's own Star by Star and are memorable characters: it's welcome, if certainly not essential, to have their background more fully fleshed out here.In fact, the Jedi provide the most entertaining aspect of Recovery. The Solo reactions to the explicitly non-human worldview of the Barabel are genuinely funny, especially as they struggle to comprehend Barabel humor. Mr. Denning handles the evolution of their relationship and concurrent healing capably enough, although no aspect of this jumps out at me as especially memorable. The final two chapters take the story on a race to Coruscant to stop a potentially disastrous Senate vote. This portion feels rushed, as if it was constrained by the limitations of being a short e-book, but it brings events to a satisfying close nevertheless.Certainly not an essential read, Recovery does flesh out aspects of the New Jedi Order and it worth a look to anyone reading that part of the saga, especially if you are a fan of Mr. Denning's later novels and want to get a bit more insight into the origin of a couple of his preferred Jedi characters.",
+  "productId": "product_uftqvft8io",
+  "createdAt": {
+    "$date": "2023-03-18T09:15:19.952Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T09:15:19.952Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641582380a90f06b2a5868f4"
+  },
+  "user": {
+    "$oid": "641581c30a90f06b2a5868ef"
+  },
+  "title": "Possibly Important",
+  "description": "I am not for sure on how much of a difference the short story has on the overall series (I haven't read on yet), but I would recommend that anyone buy it to help them understand the whole series better.P.S.- The series is one of the best of all the Star Wars series.",
+  "productId": "product_wsc0st1m0l",
+  "createdAt": {
+    "$date": "2023-03-18T09:19:52.330Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T09:19:52.330Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6415833d0a90f06b2a5868fc"
+  },
+  "user": {
+    "$oid": "6415827d0a90f06b2a5868f7"
+  },
+  "title": "Too much why and not enough how",
+  "description": "I kept waiting for the book to start! The first chapters discussed the background of a school that implemented this method. Important background information, but not really the reason I am reading the book. Then he goes on explaining the great results his school had, and the differences between Asian and American cultures when it comes to Education. Again, useful.",
+  "productId": "product_p08227hyu3",
+  "createdAt": {
+    "$date": "2023-03-18T09:24:13.769Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T09:24:13.769Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6415847c0a90f06b2a586904"
+  },
+  "user": {
+    "$oid": "6415843b0a90f06b2a5868ff"
+  },
+  "title": "Star Wars: A Forest Apart",
+  "description": "A great little chapter to read on my Kindle, but not necessarily worth the price. It would have been a nice addition to The Courtship of Princess Leia or an add on to Tatooine Ghost. I liked it, but when it doesn't even rate being published as a paperback; an avid Star Wars fan you will need to be to download and read this eBook.",
+  "productId": "product_r9f7gwsqzl",
+  "createdAt": {
+    "$date": "2023-03-18T09:29:32.600Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T09:29:32.600Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6415851f0a90f06b2a58690c"
+  },
+  "user": {
+    "$oid": "641584d00a90f06b2a586907"
+  },
+  "title": "Enjoyable But...",
+  "description": "I'm not really sure where it actually fits into the overall story line.This story involves only Chewie and his wife and son.  The other characters are only mentioned in passing.  It was enjoyable and well written but I was glad it was very short and didn't keep me from the main story for very long.",
+  "productId": "product_2hs1dmgg6t",
+  "createdAt": {
+    "$date": "2023-03-18T09:32:15.163Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T09:32:15.163Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641585bb0a90f06b2a586916"
+  },
+  "user": {
+    "$oid": "641585720a90f06b2a586911"
+  },
+  "title": "Enjoyable Imperial slice-of-life story",
+  "description": "Timothy Zahn's Fool's Bargain is a short story originally published in e-book form and set before the events of his novel Survivor's Quest. This tale covers an assignment Aurek Company of the Imperial 501st receives on the embattled planet Kariek. The focus is on the four troopers who comprise Aurek-Seven and in particular their leader Twister. This is the same squad that plays a part in Survivor's Quest, minus one personnel change which is detailed in this story. There aren't many Expanded Universe stories that take the Imperial point of view, so this is a welcome perspective here. By this stage in the galaxy's history, years after the Battle of Endor, certain elements of the Empire have developed a more enlightened perspective of the universe around them. These troopers are honorable soldiers fighting for a government they believe in, one that no longer ruthlessly oppresses subject populations but rather plays more of a protector role.The Empire of the films is notably a human-centric organization. Zahn opens the door to alien Imperials in this story with the introduction of Su-mil, an Eickarie and a Kariek native swept up in a civil war. There is a clever bit of deception on Su-mils part involving the Eickarie concept of a lie (they term a lie \"left-handed,\" vs. a truth which is \"right-handed\" - this must be awkward for the native left-handed Eickaries!). By fighting together, Twister sees a potentially valuable ally in Su-mil and we get a perspective of how a stormtrooper unit might be something a soldier would actually aspire to join, rather than simply being cannon fodder for Rebel heroes.All in all, Fool's Bargain is an enjoyable vignette of Imperial life that expands a bit on characters from Survivor's Quest and also provides an interesting preview of the Imperial perspective Zahn went on to explore more thoroughly in his novel Allegiance. It can be purchased in electronic form and is also available in the paperback version ofSurvivor's Quest (Star Wars).",
+  "productId": "product_h4eng6zn5z",
+  "createdAt": {
+    "$date": "2023-03-18T09:34:51.989Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T09:34:51.989Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641586660a90f06b2a58691e"
+  },
+  "user": {
+    "$oid": "641586280a90f06b2a586919"
+  },
+  "title": "An average short story",
+  "description": "I admit it, I snapped this up the moment I saw it on new releases, because I tend to do that with anything written by Timothy Zahn. He is, in my opinion, one of the best contemporary sci-fi authors where it comes to world building, intricate plot, and edge-of-seat action. His Thrawn and Conqueror's trilogies were incredible, Quadrail and Cobra were very unique and engaging, and even his one-off novels like Icarus Hunt and Outbound Flight are excellent. So I figured this would be too.First off, when I hit the end my jaw dropped and I literally said aloud \"Huh? That's it?!\" I then spent several minutes looking to see if it picked up somewhere else. It is a really short story, barely longer than some of the ones that appear in the 'Tales' Star Wars series (and those books have several of them!). It's also, I must say, a lot less interesting than most of them and probably the single weakest plot I've seen Zahn write. It's not terrible, but it really isn't that great either- there's no twists and at the end you're left wondering where the other half of the story is. The novella revolves around a force of Stormtroopers who are only somewhat memorable (as is the case with most such white-armored shock troops) and though there is quite a bit of action, it kind of reads like a (short) movie or videogame script.Overall, not worth paying for. In fact, it should really be free if you ask me.",
+  "productId": "product_l1e7q1m6d6",
+  "createdAt": {
+    "$date": "2023-03-18T09:37:42.915Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T09:37:42.915Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641586fe0a90f06b2a586926"
+  },
+  "user": {
+    "$oid": "641586af0a90f06b2a586921"
+  },
+  "title": "Excellent!",
+  "description": "I love Timothy Zahn's work!  He does what no other writer, not even George Lucas himself can do.  He takes the rank and file Storm Troopers and gives them personalities, talents, skills and makes them multi-dimensional characters that people can get invested in.Where most writers show the Storm Troopers as faceless cannon fodder who can't hit anything with their blasters, Zahn shows them as competent sharpshooting elite commandos who can think on their feet and adapt to any situation as well as follow orders.***SPOILERS***  ***SPOILERS***  ***SPOILERS***So the story is a pretty basic one.  There is an alien warlord who is ruling a planet with an iron fist, and the Empire decides it is time to go and free the plant of his rule, so they dispatch the 501st Legion a.k.a. Vader's Fist to take him down.There is something I do wonder about though, this takes place after Vader is dead, and after Thrawn's rule has ended.  So why does the 501st Legion keep calling themselves \"Vader's Fist?\"  Vader's not around anymore?  Do they keep the name just for the sake of nostalgia?  It's not really a major gripe, just something that makes me scratch my head.Our main characters are three Storm Troopers who all have different skills and specialties.  They infiltrate the warlord's fortress and meet up with some of the local freedom fighters and strike a deal with them.  If the troopers help them free their imprisoned comrades, they will help the troopers get inside and take out the warlord's troops and bring him to justice.The troopers agree and they infiltrate the stronghold together.  Later it seems the rebels have betrayed the Storm Troopers, but it turns out it is just a very elaborate ruse and the rebels were always on the side of the troopers and the prisoners are freed and the warlord is captured by the Empire and brought to justice.Later the head of the rebels is offered a position in the 501st Legion, which is awesome!  It really helps to enforce the fact that the Empire has learned that just having humans in their military doesn't help, it's a hindrance and it was the main reason the Rebel Alliance was able to defeat them.***END SPOILERS***  ***END SPOILERS***  ***END SPOILERS***Zahn gives us action, gun fights, intrigue and a little bit of politics as well in this story.  Any fan of Star Wars or Zahn's writing will enjoy this book very much!",
+  "productId": "product_w7hw5y7sgj",
+  "createdAt": {
+    "$date": "2023-03-18T09:40:14.425Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T09:40:14.425Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641587a90a90f06b2a58692d"
+  },
+  "user": {
+    "$oid": "641587620a90f06b2a586928"
+  },
+  "title": "Unlikely, but possible, story, very well told",
+  "description": "he hero in this story has been living in NYC and working for a sort of Crime boss.  Beaten up and tossed in an empty train car by the competition, he ends up out west and, by a series of flukes, becomes the sheriff of a small western town that is in serious trouble.  While it is not one of my L'Amour favorites, he tells it with his usual flair and attention to detail and it's well worth reading.",
+  "productId": "product_ycbjqh4qgc",
+  "createdAt": {
+    "$date": "2023-03-18T09:43:05.348Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T09:43:05.348Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641588850a90f06b2a586935"
+  },
+  "user": {
+    "$oid": "6415881d0a90f06b2a586930"
+  },
+  "title": "Great Read",
+  "description": "This is yet another  L'Amour winner. I have yet to read a book of his that was less than great. He has the ability to keep you enthalled enough in the story to make you not want to put the book down until it is finished.",
+  "productId": "product_7oa698geim",
+  "createdAt": {
+    "$date": "2023-03-18T09:46:45.402Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T09:46:45.402Z"
+  },
+  "__v": 0
+}]
