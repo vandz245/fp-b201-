@@ -1,0 +1,528 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "REVIEW API",
+    "contact": {},
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:1337/api",
+      "variables": {}
+    },
+    {
+      "url": "http://localhost:9100",
+      "variables": {}
+    }
+  ],
+  "paths": {
+    "/users": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Create User",
+        "operationId": "CreateUser",
+        "parameters": [],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/CreateUserRequest"
+                  },
+                  {
+                    "example": {
+                      "email": "test@example.com",
+                      "password": "Password456!",
+                      "passwordConfirmation": "Password456!",
+                      "name": "Jane Doe"
+                    }
+                  }
+                ]
+              },
+              "example": {
+                "email": "test@example.com",
+                "password": "Password456!",
+                "passwordConfirmation": "Password456!",
+                "name": "Jane Doe"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:1337/api",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/sessions": {
+      "post": {
+        "tags": [
+          "Session"
+        ],
+        "summary": "Create Session",
+        "operationId": "CreateSession",
+        "parameters": [],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/CreateSessionRequest"
+                  },
+                  {
+                    "example": {
+                      "email": "test@example.com",
+                      "password": "Password456!"
+                    }
+                  }
+                ]
+              },
+              "example": {
+                "email": "test@example.com",
+                "password": "Password456!"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:1337/api",
+            "variables": {}
+          }
+        ]
+      },
+      "get": {
+        "tags": [
+          "Session"
+        ],
+        "summary": "Get Sessions",
+        "operationId": "GetSessions",
+        "parameters": [
+          {
+            "name": "x-refresh",
+            "in": "header",
+            "description": "",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string",
+              "example": "<refreshToken will be set when you create a session>"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:1337/api",
+            "variables": {}
+          }
+        ]
+      },
+      "delete": {
+        "tags": [
+          "Session"
+        ],
+        "summary": "Delete Session",
+        "operationId": "DeleteSession",
+        "parameters": [
+          {
+            "name": "x-refresh",
+            "in": "header",
+            "description": "",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string",
+              "example": "<refreshToken will be set when you create a session>"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:1337/api",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/products": {
+      "post": {
+        "tags": [
+          "Review"
+        ],
+        "summary": "Create Product",
+        "operationId": "CreateProduct",
+        "parameters": [
+          {
+            "name": "x-refresh",
+            "in": "header",
+            "description": "",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string",
+              "example": "<refreshToken will be set when you create a session>"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/CreateProductRequest"
+                  },
+                  {
+                    "example": {
+                      "title": "Canon EOS 1500D DSLR Camera with 18-55mm Lens",
+                      "description": "Designed for first-time DSLR owners who want impressive results straight out of the box, capture those magic moments no matter your level with the EOS 1500D. With easy to use automatic shooting modes, large 24.1 MP sensor, Canon Camera Connect app integration and built-in feature guide, EOS 1500D is always ready to go."
+                    }
+                  }
+                ]
+              },
+              "example": {
+                "title": "Canon EOS 1500D DSLR Camera with 18-55mm Lens",
+                "description": "Designed for first-time DSLR owners who want impressive results straight out of the box, capture those magic moments no matter your level with the EOS 1500D. With easy to use automatic shooting modes, large 24.1 MP sensor, Canon Camera Connect app integration and built-in feature guide, EOS 1500D is always ready to go."
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:1337/api",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/products/<productId>": {
+      "get": {
+        "tags": [
+          "Review"
+        ],
+        "summary": "Get Product",
+        "operationId": "GetProduct",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:1337/api",
+            "variables": {}
+          }
+        ]
+      },
+      "put": {
+        "tags": [
+          "Review"
+        ],
+        "summary": "Update Product",
+        "operationId": "UpdateProduct",
+        "parameters": [
+          {
+            "name": "x-refresh",
+            "in": "header",
+            "description": "",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string",
+              "example": "<refreshToken will be set when you create a session>"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/UpdateProductRequest"
+                  },
+                  {
+                    "example": {
+                      "title": "Canon EOS 1500D DSLR Camera with 18-55mm Lens",
+                      "description": "Designed for first-time DSLR owners who want impressive results straight out of the box, capture those magic moments no matter your level with the EOS 1500D. With easy to use automatic shooting modes, large 24.1 MP sensor, Canon Camera Connect app integration and built-in feature guide, EOS 1500D is always ready to go."
+                    }
+                  }
+                ]
+              },
+              "example": {
+                "title": "Canon EOS 1500D DSLR Camera with 18-55mm Lens",
+                "description": "Designed for first-time DSLR owners who want impressive results straight out of the box, capture those magic moments no matter your level with the EOS 1500D. With easy to use automatic shooting modes, large 24.1 MP sensor, Canon Camera Connect app integration and built-in feature guide, EOS 1500D is always ready to go."
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:1337/api",
+            "variables": {}
+          }
+        ]
+      },
+      "delete": {
+        "tags": [
+          "Review"
+        ],
+        "summary": "Delete Product",
+        "operationId": "DeleteProduct",
+        "parameters": [
+          {
+            "name": "x-refresh",
+            "in": "header",
+            "description": "",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string",
+              "example": "<refreshToken will be set when you create a session>"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:1337/api",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/metrics": {
+      "get": {
+        "tags": [
+          "Metrics"
+        ],
+        "summary": "Get metrics",
+        "operationId": "Getmetrics",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:9100",
+            "variables": {}
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateUserRequest": {
+        "title": "CreateUserRequest",
+        "required": [
+          "email",
+          "password",
+          "passwordConfirmation",
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          },
+          "passwordConfirmation": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "email": "test@example.com",
+          "password": "Password456!",
+          "passwordConfirmation": "Password456!",
+          "name": "Jane Doe"
+        }
+      },
+      "CreateSessionRequest": {
+        "title": "CreateSessionRequest",
+        "required": [
+          "email",
+          "password"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "email": "test@example.com",
+          "password": "Password456!"
+        }
+      },
+      "CreateProductRequest": {
+        "title": "CreateProductRequest",
+        "required": [
+          "title",
+          "description"
+        ],
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "title": "Canon EOS 1500D DSLR Camera with 18-55mm Lens",
+          "description": "Designed for first-time DSLR owners who want impressive results straight out of the box, capture those magic moments no matter your level with the EOS 1500D. With easy to use automatic shooting modes, large 24.1 MP sensor, Canon Camera Connect app integration and built-in feature guide, EOS 1500D is always ready to go."
+        }
+      },
+      "UpdateProductRequest": {
+        "title": "UpdateProductRequest",
+        "required": [
+          "title",
+          "description"
+        ],
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "price": {
+            "type": "number"
+          },
+          "image": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "title": "Canon EOS 1500D DSLR Camera with 18-55mm Lens",
+          "description": "Designed for first-time DSLR owners who want impressive results straight out of the box, capture those magic moments no matter your level with the EOS 1500D. With easy to use automatic shooting modes, large 24.1 MP sensor, Canon Camera Connect app integration and built-in feature guide, EOS 1500D is always ready to go."
+        }
+      },
+      "DeleteProductRequest": {
+        "title": "DeleteProductRequest",
+        "required": [
+          "title",
+          "body"
+        ],
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "title": "A post title",
+          "body": "Some HTML text Some HTML text Some HTML text Some HTML text Some HTML text Some HTML text Some HTML text Some HTML text Some HTML text Some HTML text Some HTML text Some HTML text Some HTML text Some HTML text"
+        }
+      }
+    },
+    "securitySchemes": {
+      "bearer": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    }
+  },
+  "security": [
+    {
+      "bearer": []
+    }
+  ],
+  "tags": [
+    {
+      "name": "User"
+    },
+    {
+      "name": "Session"
+    },
+    {
+      "name": "Review"
+    },
+    {
+      "name": "Metrics"
+    }
+  ]
+}
